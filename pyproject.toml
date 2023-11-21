@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "saiku-py"
 version = "0.1.0"
-description = ""
+description = "AI Agent capable of automating various tasks using openai API: Vision, Dalle3, Text To Seech, Speech to Text, Tool calls and Completions."
 authors = ["Anis Marrouchi <anismarrouchi@hotmail.com>"]
 license = "MIT"
 readme = "README.md"
