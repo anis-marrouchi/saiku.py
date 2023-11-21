@@ -84,7 +84,7 @@ PEAS stands for Performance measure, Environment, Actuators, and Sensors. It's a
   ```python
   options = {
       "llm": "openai",
-      "actions": ["text_to_speech", "speech_to_text", "chat"]
+      "allowCodeExecution": True
   }
   agent.options(options)
   ```
@@ -119,21 +119,19 @@ poetry install
 #### Run the Project Locally
 ```bash
 poetry shell
-poetry install
+saikupy
 ```
 
 ## Demo
 
 [Include a link to a demo or screenshots if available]
 
-## Available Commands
+## Available Actions
 
 - `text_to_speech`: Converts text to spoken audio.
 - `speech_to_text`: Transcribes spoken audio to text.
 - `chat`: Interactive chat with the AI.
-- `websocket`: Sets
-
- up a WebSocket server for real-time interaction.
+- `websocket`: Sets up a WebSocket server for real-time interaction.
 - `execute_code`: Executes a code snippet.
 - `text_image`: Generates an image based on text input.
 - `vision`: Analyzes videos or images using OpenAI Vision.
@@ -151,7 +149,7 @@ poetry install
 
 ## Future Features
 
-[Include a list of planned features or enhancements]
+[TODO: Include a list of planned features or enhancements]
 
 ## Contributing
 
