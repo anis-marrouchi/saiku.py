@@ -1,6 +1,9 @@
 # Saiku.py - The AI Agent
 
 <!-- <b><a href="https://saiku.mintlify.app/">Read our documentation</a></b> -->
+<!-- <b><a href="https://saiku.mintlify.app/">Read our documentation</a></b> -->
+
+Looking for the javascript version? Check out [LangChain](https://github.com/nooqta/saiku).
 
 ## Table of Contents
 
