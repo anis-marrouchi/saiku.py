@@ -1,0 +1,13 @@
+# Python files
+*.pyc
+*.pyo
+__pycache__
+
+# Poetry files
+__pypackages__/
+.poetry/
+tmp
+
+# Build
+build/
+dist/
